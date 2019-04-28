@@ -1,0 +1,82 @@
+.header{
+  height: 8vh;
+  display: grid;
+  grid-gap: 5px;
+}
+a {
+	text-decoration: none;
+}
+.menu{
+	margin-top: 10px;
+	padding: 0px;
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+}
+li{
+	padding: 10px;
+	list-style: none;
+  border: 1px black solid;
+	text-align: center;
+	color: black;
+	font-size: 19px;
+}
+li:hover{
+	color: white;
+  background: black;
+}
+.collage{
+  height: 135vh;
+  background: black;
+  background-image: url(../images/collage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.group{
+  background-image: url(../images/group.png);
+  height: 40vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.items{
+  height: 130vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.item1{
+  background-image: url(../images/item1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.item1:hover{
+  border: black 1px solid;
+}
+.item2{
+  background-image: url(../images/item2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.item2:hover{
+  border: black 1px solid;
+}
+.item3{
+  background-image: url(../images/item3.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.item3:hover{
+  border: black 1px solid;
+}
+.item4{
+  background-image: url(../images/item4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.item4:hover{
+  border: black 1px solid;
+}
+
+h1{
+  text-align: center;
+  font-size: 25px;
+}
